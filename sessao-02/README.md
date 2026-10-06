@@ -35,4 +35,10 @@ Laboratório | Sessão 02
 + > Identificar se o atacante obteve sucesso: 
 `grep -E "Accepted password | Accepted publickey" auth.log`
 
-<h2> Critérios de Entrega </h2>
+<h3> Critérios de Entrega </h3>
+
+1. O IP do atacante identificado
+
+2. A hora exata do comprometimento (timestamp) 
+
+3. O utilizador afetado Breve linha temporal do ataque (tentativas falhadas → sucesso
