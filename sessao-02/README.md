@@ -23,4 +23,16 @@ Laboratório | Sessão 02
 
 + > Aceder ao laboratório Intro to Logs para compreender a mecânica dos registos do sistema 
 
-+ > No lab Linux Server Forensics, navegar até à diretoria de logs do servidor comprometido: `cd /var/log/`
++ > No lab Linux Server Forensics, navegar até à diretoria de logs do servidor comprometido: 
+`cd /var/log/`
+
++ > Isolar tentativas falhadas de login: 
+`grep "Failed password" auth.log`
+
++ > Extrair e contar quais os IPs que mais tentaram autenticar-se no sistema: 
+`grep "Failed password" auth.log | awk '{print $11}' | sort | uniq -c | sort -nr`
+
++ > Identificar se o atacante obteve sucesso: 
+`grep -E "Accepted password | Accepted publickey" auth.log`
+
+<h2> Critérios de Entrega </h2>
