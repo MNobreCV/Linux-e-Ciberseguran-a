@@ -44,3 +44,14 @@ PORT   | SERVICE
 80     | HTTP
 135    | MSRPC
 3389   | MS-WBT-SERVER
+
+3. Versões exatas detetadas pelo Nmap:
+
+PORT     | VERSION
+---------|---------
+21/tcp   | FileZilla 
+ftpd     | 53/tcp Simple DNS Plus 
+80/tcp   | Microsoft IIS httpd 10.0 
+135/tcp  | Microsoft Windows RPC 
+3389/tcp | Microsoft Terminal Services
+
