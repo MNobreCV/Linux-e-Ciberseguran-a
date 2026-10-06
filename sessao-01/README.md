@@ -55,3 +55,10 @@ ftpd     | 53/tcp Simple DNS Plus
 135/tcp  | Microsoft Windows RPC 
 3389/tcp | Microsoft Terminal Services
 
+4. Saída completa do comando ip a e ss -tuln do ambiente local:
+
+<img width="939" height="290" alt="Captura de ecrã 2026-07-14 155640" src="https://github.com/user-attachments/assets/e41caa53-ef54-4726-8ed9-0db5113228cf" />
+
+<img width="936" height="294" alt="Captura de ecrã 2026-07-14 155621" src="https://github.com/user-attachments/assets/bcaac3c4-bc8b-49ed-a9db-24e66a9d1000" />
+
+> Durante este laboratório foi possível utilizar comandos essenciais do Linux para analisar a configuração da rede local e identificar serviços ativos.
