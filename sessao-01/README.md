@@ -38,8 +38,9 @@ Laboratório | Sessão 01
 2. Serviços em execução em cada porta:
 
 PORT   | SERVICE
---------- | ----------
-Modulo  | Linux e Cibersegurança
-Formador| Péricles Borges
-Formando| Mauro Nobre
-Laboratório | Sessão 01
+------ | ----------
+21     | FTP
+53     | DOMAIN
+80     | HTTP
+135    | MSRPC
+3389   | MS-WBT-SERVER
